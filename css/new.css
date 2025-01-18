@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://th.bing.com/th/id/R.6be6dbc1f6d094ab7e77a19386934213?rik=HlLmfyHWWiTnDQ&riu=http%3a%2f%2feskipaper.com%2fimages%2fsunset-pictures-19.jpg&ehk=GXVYcSOEyeTTWn%2bP7Omk2xSOninrA%2fAtL0sD5QpZ7v4%3d&risl=&pid=ImgRaw&r=0'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #4a4a4a;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-section img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-content h1 {
+    color: #cc0000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main-content form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.main-content form button {
+    width: 95%;
+    padding: 10px;
+    background: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-content form button:hover {
+    background: #a10000;
+}
+
+.main-content a {
+    color: #cc0000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main-content a:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    margin-top: 10px;
+    background: #e57373;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.create-account:hover {
+    background: #d32f2f;
+}
+
+
+.footer-section {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-section a {
+    margin: 0 10px;
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
