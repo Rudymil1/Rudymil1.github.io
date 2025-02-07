@@ -5,6 +5,8 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    transition: background 0.3s, color 0.3s;
+    font-size: 1rem;
 }
 
 .container {
@@ -16,34 +18,35 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #77aaff 3px solid;
+    padding-top: 1.875rem;
+    min-height: 4.375rem;
+    border-bottom: #77aaff 0.1875rem solid;
 }
 
 header h1 {
     text-align: center;
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 
 header p {
     text-align: center;
-    margin: 5px 0;
+    margin: 0.3125rem 0;
 }
 
 .objective, .academic-background, .skills {
     background: #fff;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0.9375rem;
+    margin-bottom: 0.625rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, color 0.3s;
 }
 
 h2 {
     color: #333;
-    border-bottom: 2px solid #77aaff;
-    padding-bottom: 5px;
+    border-bottom: 0.125rem solid #77aaff;
+    padding-bottom: 0.3125rem;
 }
 
 table {
@@ -52,8 +55,8 @@ table {
 }
 
 table td {
-    padding: 8px;
-    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ddd;
 }
 
 ul {
@@ -63,25 +66,25 @@ ul {
 
 ul li {
     background: #eee;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
+    margin: 0.3125rem 0;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
 }
 
 .profile-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #77aaff;
-    margin-right: 20px;
+    border: 0.1875rem solid #77aaff;
+    margin-right: 1.25rem;
 }
 
 .header-info {
@@ -92,86 +95,60 @@ ul li {
 .header-info p {
     display: flex;
     align-items: center;
-    margin: 5px 0;
+    margin: 0.3125rem 0;
 }
 
 .header-info i {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     color: #77aaff;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 #theme-toggle {
     background: #77aaff;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
     cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
+    font-size: 1rem;
+    border-radius: 0.3125rem;
     transition: 0.3s;
     display: block;
-    margin: 20px auto;
+    margin: 1.25rem auto;
 }
 
 #theme-toggle:hover {
     background: #5599dd;
 }
 
-
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    transition: background 0.3s, color 0.3s;
-}
-
-
-.objective, .academic-background, .skills {
-    background: #fff;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s, color 0.3s;
-}
-
-
+/* Dark Mode Styles */
 .dark-mode {
     background-color: #222;
     color: #fff;
 }
-
 
 .dark-mode header {
     background: #444;
     color: #fff;
 }
 
-
 .dark-mode .objective,
 .dark-mode .academic-background,
 .dark-mode .skills {
     background: #333;
     color: #fff;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0.625rem rgba(255, 255, 255, 0.1);
 }
 
 .dark-mode ul li {
     background: #444;
     color: white;
-    border: 1px solid #777;
+    border: 0.0625rem solid #777;
 }
-
 
 .dark-mode table td {
     border-color: #666;
 }
-
 
 .dark-mode #theme-toggle {
     background: #ffcc00;
@@ -182,28 +159,24 @@ body {
     background: #e6b800;
 }
 
-
 .dark-mode .header-info i {
     color: #ffcc00;
 }
 
 .dark-mode h2 {
     color: #ffcc00;
-    border-bottom: 2px solid #ffcc00;
+    border-bottom: 0.125rem solid #ffcc00;
 }
-
 
 .objective h2 i,
 .academic-background h2 i,
 .skills h2 i {
     color: #77aaff;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
-
 
 .dark-mode .objective h2 i,
 .dark-mode .academic-background h2 i,
 .dark-mode .skills h2 i {
     color: #ffcc00;
 }
-
